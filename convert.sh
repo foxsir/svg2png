@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir -p png
+
 for file in `ls`
 do
 	if [[ "$file" == *.svg* ]]; then
